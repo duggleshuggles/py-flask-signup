@@ -50,6 +50,9 @@ class AppTestCase(unittest.TestCase):
         """ Test that we can authenticate as a user """
         self.assertTrue(1)
 
+    def test_DugsPassingTest(self):
+        """" Can we pass? """
+        self.assertTrue(1)
 
 if __name__ == '__main__':
     unittest.main()
