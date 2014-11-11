@@ -52,7 +52,7 @@ class AppTestCase(unittest.TestCase):
 
     def test_DugsPassingTest(self):
         """" Can we pass? """
-        self.assertTrue(0)
+        self.assertTrue(1)
 
 if __name__ == '__main__':
     unittest.main()
